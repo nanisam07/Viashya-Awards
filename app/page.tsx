@@ -135,7 +135,7 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video ref={videoRef} autoPlay loop muted playsInline preload="auto" className="w-full h-full object-cover">
-              <source src="https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="video/mp4" />
+              <source src="https://v0.blob.com/awards-background.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-900/70 to-amber-900/70 mix-blend-multiply"></div>
           </div>
@@ -146,7 +146,7 @@ export default function Home() {
                   variants={fadeIn}
                   className="inline-block rounded-full bg-amber-500/20 backdrop-blur-sm px-4 py-1 text-sm text-white border border-amber-500/30"
                 >
-                  Inaugural Ceremony 2K25
+                  Inaugural Ceremony 2025
                 </motion.div>
                 <motion.h1
                   variants={fadeIn}
@@ -183,7 +183,7 @@ export default function Home() {
               >
                 <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 opacity-30 blur-xl"></div>
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="https://images.unsplash.com/photo-1731405844378-67b219fcbe96?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Awards Ceremony"
                   width={600}
                   height={400}
@@ -426,7 +426,7 @@ export default function Home() {
                 <Card className="border-0 shadow-lg overflow-hidden">
                   <div className="h-40 bg-gradient-to-br from-amber-400 to-orange-500 relative">
                     <Image
-                      src="https://v0.blob.com/event-calendar.jpg"
+                      src="https://images.unsplash.com/photo-1718815628185-2ff0f9332b32?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Event Calendar"
                       fill
                       className="object-cover mix-blend-overlay opacity-50"
@@ -451,7 +451,7 @@ export default function Home() {
                 <Card className="border-0 shadow-lg overflow-hidden">
                   <div className="h-40 bg-gradient-to-br from-purple-400 to-pink-500 relative">
                     <Image
-                      src="https://v0.blob.com/event-venue.jpg"
+                      src="https://images.unsplash.com/photo-1712971404080-87271ce2e473?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Event Venue"
                       fill
                       className="object-cover mix-blend-overlay opacity-50"
@@ -480,7 +480,7 @@ export default function Home() {
                 <Card className="border-0 shadow-lg overflow-hidden">
                   <div className="h-40 bg-gradient-to-br from-blue-400 to-indigo-500 relative">
                     <Image
-                      src="https://v0.blob.com/event-dress-code.jpg"
+                      src="hhttps://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Dress Code"
                       fill
                       className="object-cover mix-blend-overlay opacity-50"
@@ -688,7 +688,7 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <Image
-                  src="https://v0.blob.com/awards-gallery-1.jpg"
+                  src="https://images.unsplash.com/photo-1514820720301-4c4790309f46?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Awards Gallery"
                   width={300}
                   height={400}
@@ -696,14 +696,14 @@ export default function Home() {
                 />
                 <div className="grid grid-rows-2 gap-4">
                   <Image
-                    src="https://v0.blob.com/awards-gallery-2.jpg"
+                    src="https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Awards Gallery"
                     width={300}
                     height={200}
                     className="rounded-lg object-cover h-full w-full"
                   />
                   <Image
-                    src="https://v0.blob.com/awards-gallery-3.jpg"
+                    src="hhttps://plus.unsplash.com/premium_photo-1664302656889-e0ff44331843?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Awards Gallery"
                     width={300}
                     height={200}
