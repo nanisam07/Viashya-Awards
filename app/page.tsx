@@ -746,7 +746,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="h-5 w-5 text-amber-500" />
-              <span className="text-sm">+1 (555) 123-4567</span>
+              <span className="text-sm">+91 9290914773</span>
             </div>
           </div>
           <div className="flex flex-col gap-2">
