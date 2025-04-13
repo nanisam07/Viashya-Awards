@@ -53,15 +53,19 @@ export default function Home() {
 
     const handleCanPlay = () => {
       if (secondVideoElement && document.contains(secondVideoElement)) {
-        const playPromise = secondVideoElement.play()
-
+        const playPromise = secondVideoElement.play();
+    
         if (playPromise !== undefined) {
-          playPromise.catch((error) => {
-            console.error("Error playing second video:", error)
-          })
+          playPromise.catch((error: unknown) => {
+            if (error instanceof Error) {
+              console.error("Error playing second video:", error.message);
+            } else {
+              console.error("Unknown error playing second video:", error);
+            }
+          });
         }
       }
-    }
+    };
 
     secondVideoElement.addEventListener("canplay", handleCanPlay)
 
@@ -170,14 +174,12 @@ export default function Home() {
                 </motion.p>
                 <motion.div variants={fadeIn} className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
                   <Button
-                    size="lg"
-                    className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white border-0"
+                    className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white border-0 text-lg py-3 px-6"
                   >
                     Register Now
                   </Button>
                   <Button
-                    size="lg"
-                    variant="outline"
+                    className="outline"
                     className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20"
                   >
                     Learn More
@@ -541,13 +543,11 @@ export default function Home() {
                   recognition at our inaugural awards ceremony.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                  <Button size="lg" className="bg-white text-amber-900 hover:bg-white/90">
+                  <Button className="bg-white text-amber-900 hover:bg-white/90 text-lg py-3 px-6">
                     Nominate Now
                   </Button>
                   <Button
-                    size="lg"
-                    variant="outline"
-                    className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20"
+                    className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-lg py-3 px-6"
                   >
                     View Criteria
                   </Button>
@@ -687,13 +687,11 @@ export default function Home() {
                   Join us in celebrating the achievements of our community.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Button size="lg" className="bg-white text-amber-900 hover:bg-white/90">
+                  <Button className="bg-white text-amber-900 hover:bg-white/90">
                     Become a Sponsor
                   </Button>
                   <Button
-                    size="lg"
-                    variant="outline"
-                    className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20"
+                    className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20 outline"
                   >
                     Contact Us
                   </Button>
