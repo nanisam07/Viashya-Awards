@@ -237,7 +237,7 @@ export default function Home() {
               >
                 <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-amber-500/20 opacity-30 blur-xl"></div>
                 <Image
-                  src="https://v0.blob.com/community-celebration.jpg"
+                  src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2VsZWJyYXRpb25zfGVufDB8fDB8fHww"
                   alt="Community Celebration"
                   width={600}
                   height={400}
