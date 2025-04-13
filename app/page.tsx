@@ -124,11 +124,10 @@ export default function Home() {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
+        className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
       >
-        <span className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent">
-          Vaishya Excellence Awards
-        </span>
-      </motion.span>
+        Vaishya Excellence Awards -- 2k25
+      </motion.span> 
     </div>
     <nav className="hidden md:flex gap-6">
       {/* ... rest of your nav links ... */}
@@ -151,13 +150,13 @@ export default function Home() {
               <motion.div initial="hidden" animate="visible" variants={staggerChildren} className="space-y-4">
                 <motion.div
                   variants={fadeIn}
-                  className="inline-block rounded-full bg-amber-500/20 backdrop-blur-sm px-4 py-1 text-sm text-white border border-amber-500/30" as="div"
+                  className="inline-block rounded-full bg-amber-500/20 backdrop-blur-sm px-4 py-1 text-sm text-white border border-amber-500/30"
                 >
                   Inaugural Ceremony 2025
                 </motion.div>
                 <motion.h1
                   variants={fadeIn}
-                  style={{ fontSize: '4xl', fontWeight: 'bold', letterSpacing: 'tighter', color: 'white', textShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)' }}
+                  className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white drop-shadow-lg"
                 >
                   <span className="block">Celebrating</span>
                   <span className="block bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
