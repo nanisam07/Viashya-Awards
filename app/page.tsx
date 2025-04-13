@@ -480,7 +480,7 @@ export default function Home() {
                 <Card className="border-0 shadow-lg overflow-hidden">
                   <div className="h-40 bg-gradient-to-br from-blue-400 to-indigo-500 relative">
                     <Image
-                      src="hhttps://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Dress Code"
                       fill
                       className="object-cover mix-blend-overlay opacity-50"
@@ -703,7 +703,7 @@ export default function Home() {
                     className="rounded-lg object-cover h-full w-full"
                   />
                   <Image
-                    src="hhttps://plus.unsplash.com/premium_photo-1664302656889-e0ff44331843?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://images.unsplash.com/photo-1518885137200-434f43a6d583?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Awards Gallery"
                     width={300}
                     height={200}
