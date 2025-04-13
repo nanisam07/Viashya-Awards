@@ -152,7 +152,7 @@ export default function Home() {
                   variants={fadeIn}
                   className="inline-block rounded-full bg-amber-500/20 backdrop-blur-sm px-4 py-1 text-sm text-white border border-amber-500/30"
                 >
-                  Inaugural Ceremony 2025
+                  Inaugural Ceremony 2K25
                 </motion.div>
                 <motion.h1
                   variants={fadeIn}
