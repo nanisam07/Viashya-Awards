@@ -47,7 +47,7 @@ export default function Home() {
   }, [])
 
   useEffect(() => {
-    const secondVideoElement = document.querySelector("video:nth-of-type(2)")
+    const secondVideoElement = document.querySelector("video:nth-of-type(2)") as HTMLVideoElement
 
     if (!secondVideoElement) return
 
@@ -110,37 +110,27 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur-md">
-        <div className="container flex h-16 items-center justify-between py-4">
-          <div className="flex items-center gap-2">
-            <Trophy className="h-6 w-6 text-amber-500" />
-            <motion.span
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
-            >
-              Vaishya Excellence-Awards 
-          </div>
-          <nav className="hidden md:flex gap-6">
-            <Link href="#about" className="text-sm font-medium hover:text-amber-500 transition-colors">
-              About
-            </Link>
-            <Link href="#categories" className="text-sm font-medium hover:text-amber-500 transition-colors">
-              Categories
-            </Link>
-            <Link href="#details" className="text-sm font-medium hover:text-amber-500 transition-colors">
-              Event Details
-            </Link>
-            <Link href="#nominate" className="text-sm font-medium hover:text-amber-500 transition-colors">
-              Nominate
-            </Link>
-          </nav>
-          <Button className="hidden md:inline-flex bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700">
-            Register Now
-          </Button>
-        </div>
-      </header>
+      <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-amber-900 to-orange-900 text-white shadow-lg">
+  <div className="container flex h-16 items-center justify-between py-4">
+    <div className="flex items-center gap-2">
+      <Trophy className="h-6 w-6 text-amber-500" />
+      <motion.span
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
+      >
+        Vaishya Excellence Awards -- Samuel 
+      </motion.span>
+    </div>
+    <nav className="hidden md:flex gap-6">
+      {/* ... rest of your nav links ... */}
+    </nav>
+    <Button className="hidden md:inline-flex bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700">
+      Register Now
+    </Button>
+  </div>
+</header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -179,8 +169,7 @@ export default function Home() {
                     Register Now
                   </Button>
                   <Button
-                    className="outline"
-                    className="text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20"
+                    className="outline text-white border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20"
                   >
                     Learn More
                   </Button>
