@@ -116,7 +116,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
             >
-              Vaishya Excellence Awards -- sammm
+              Vaishya Excellence Awards -- sammmuel
             </motion.span>
           </div>
           <nav className="hidden md:flex gap-6">
