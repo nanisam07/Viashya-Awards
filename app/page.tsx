@@ -116,8 +116,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
             >
-              Vaishya Excellence Awards -- sammmuel
-            </motion.span>
+              Vaishya Excellence Awards 
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#about" className="text-sm font-medium hover:text-amber-500 transition-colors">
@@ -317,7 +316,7 @@ export default function Home() {
                   variants={shimmer}
                   className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"
                 >
-                  Award Categories
+                  Award Categorie
                 </motion.h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Recognizing excellence across multiple domains that reflect the diverse talents of our community.
