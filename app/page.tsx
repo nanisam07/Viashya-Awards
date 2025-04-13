@@ -120,7 +120,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
       >
-        Vaishya Excellence Awards -- Samuel 
+        Vaishya Excellence Awards 
       </motion.span>
     </div>
     <nav className="hidden md:flex gap-6">
@@ -551,7 +551,7 @@ export default function Home() {
               >
                 <div className="absolute -inset-4 rounded-xl bg-white/20 opacity-30 blur-xl"></div>
                 <Image
-                  src="https://v0.blob.com/nomination-image.jpg"
+                  src="https://cdn.pixabay.com/photo/2024/04/05/05/16/trophy-8676528_1280.jpg"
                   alt="Nomination"
                   width={600}
                   height={400}
