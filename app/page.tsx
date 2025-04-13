@@ -313,7 +313,7 @@ export default function Home() {
                   variants={shimmer}
                   className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent"
                 >
-                  Award Categorie
+                  Award Categories
                 </motion.h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Recognizing excellence across multiple domains that reflect the diverse talents of our community.
