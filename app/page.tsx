@@ -3,14 +3,17 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Calendar, MapPin, Trophy, Users, ChevronRight, Mail, Phone, Award, Star, Sparkles } from "lucide-react"
+import Head from "next/head"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { useEffect, useRef } from "react"
 import { motion } from "framer-motion"
+import React from 'react';
+
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null)
-
+  
   useEffect(() => {
     const videoElement = videoRef.current
 
@@ -110,6 +113,10 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <Head>
+        <title>Vaishya Excellence Awards 2025</title>
+        <meta name="description" content="Celebrating excellence in the Vaishya community. Join us for the inaugural awards ceremony." />
+      </Head>
       <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-amber-900 to-orange-900 text-white shadow-lg">
   <div className="container flex h-16 items-center justify-between py-4">
     <div className="flex items-center gap-2">
