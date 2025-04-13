@@ -135,7 +135,7 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video ref={videoRef} autoPlay loop muted playsInline preload="auto" className="w-full h-full object-cover">
-              <source src="https://v0.blob.com/awards-background.mp4" type="video/mp4" />
+              <source src="https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-900/70 to-amber-900/70 mix-blend-multiply"></div>
           </div>
