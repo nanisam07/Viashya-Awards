@@ -116,7 +116,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent"
             >
-              Vaishya Excellence Awards 
+              Vaishya Excellence-Awards 
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#about" className="text-sm font-medium hover:text-amber-500 transition-colors">
